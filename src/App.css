@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(177, 167, 167);
+}
+
+.App-logo {
+  height: 100px;
+  pointer-events: none;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+/* 
+.App-header {
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.survey-main-btn{
+  background-color: #af5f46;
+    width: 150px;
+    margin: 20px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
